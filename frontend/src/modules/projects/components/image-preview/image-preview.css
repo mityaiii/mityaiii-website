@@ -1,0 +1,29 @@
+.image-container {
+  position: relative;
+  overflow: hidden;
+  height: 360px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.preview-image {
+  width: 500px;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover .preview-image {
+  transform: translateY(-50%);
+  transition: ease-in 5s;
+}
+
+.preview-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+}
