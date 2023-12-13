@@ -1,1 +1,0 @@
-export { default as HeaderHero } from './header-hero'

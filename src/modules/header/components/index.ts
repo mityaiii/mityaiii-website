@@ -1,1 +1,0 @@
-export { default as HeaderHoc } from './header.hoc'

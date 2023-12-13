@@ -1,5 +1,0 @@
-export { Header } from './header/index'
-export { AboutMe } from './about-me/index'
-export { Contacts } from './contacts/index'
-export { Projects } from './projects/index'
-export { Loader } from './loader/index'
